@@ -1,0 +1,298 @@
+@import url(//db.onlinewebfonts.com/c/fe42624effa9e48d2ab8e7d4d6a53207?family=Hurme+Geometric+Sans+No.3);
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Hurme;
+}
+header{
+    box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+    background-position: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+naV ul li a{
+    color: rgb(54, 40, 40);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #141313;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+.socinsta ul{
+    display: flex;
+    position: right;
+}
+.socinsta ul li{
+    list-style: none;
+    padding: 0px 10px;
+    position: relative;
+
+
+}
+
+
+
+
+.head{
+  height: 15vh;
+
+  clear: both;
+}
+
+.social{
+  width: 50%;
+  float: left;
+
+  height:15vh;
+
+}
+
+.social ul{
+  list-style-type: none;
+
+  width: 40%;
+}
+.social ul li{
+
+  display: inline;
+  padding: 10px;
+
+
+}
+
+.lingue{
+  width: 49%;
+  float: right;
+
+  height: 15vh;
+}
+
+.lingue ul{
+  list-style-type: none;
+
+  width: 50%;
+  float: right;
+}
+
+.lingue ul li{
+  display: inline;
+  padding: 10px;
+
+
+}
+
+.lingue ul li a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.lingue ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
+
+
+
+
+@media (max-width: 700px){
+
+
+
+  .social ul{
+
+    width: 40%;
+    padding-left: 0;
+  }
+  .social ul li{
+    padding: 3px;
+  }
+
+
+  .lingue ul{
+    margin-right: 3%;
+    width: 95%;
+  }
+
+
+}
+
+
+
+
+nav .fa{
+    display: none;
+}
+
+ .socinsta ul{
+    display: flex;
+    position: right;
+
+}
+.socinsta ul li{
+    list-style: none;
+    padding: 0px 10px;
+    position: relative;
+
+
+}
+
+
+
+/* ************************************** NEW ************************************/
+.container{
+  height: 250vh;
+
+  clear: both;
+}
+
+.left{
+  height: 250vh;
+  width: 49%;
+  float: left;
+
+}
+
+.right{
+  height: 250vh;
+  width: 50%;
+  float: right;
+
+}
+
+.right .img1, .img2, .img3, .img4{
+  height: 50vh;
+
+  margin-bottom: 8%;
+}
+
+.right .img1{
+  height: 60vh;
+}
+
+.right img{
+  height: 50vh;
+  width: auto;
+  margin-left: 15%;
+  border-radius: 5px;
+}
+
+.right .img1 img{
+  height: 60vh;
+  margin-left: 8%;
+}
+
+
+.title h1{
+
+  width: 50%;
+  margin-left: 5%;
+}
+
+.data{
+  margin-top: 10%;
+}
+.data h4{
+
+    margin-left: 5%;
+
+}
+.data span{
+  color: grey;
+  font-weight: bold;
+}
+
+.txt{
+  margin-top: 10%;
+}
+.txt p{
+  margin-left: 5%;
+  text-align: justify;
+  width: 85%;
+}
+
+.people{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.people h5{
+  font-weight: 900;
+  font-size: 16px;
+}
+
+
+
+.gallery{
+  height: 50vh;
+
+}
+
+.column {
+  float: left;
+  width: 33%;
+  height: 50vh;
+
+}
+
+.column img{
+  height: auto;
+  width: 90%;
+  margin-left: 4%;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+/*      ALL PROJECT BUTTON */
+
+.container_btn {
+  height: 20vh;
+  margin-bottom: 7%;
+  margin-top: 10%;
+  position: relative;
+
+}
+
+.center_btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container_btn button{
+  color: black;
+  border: 2px solid black;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(to left, white 50%, black 50%) right;
+    background-size: 300%;
+    transition: 1s ease-out;
+  cursor: pointer;
+}
+
+.container_btn button:hover{
+  color: white;
+  background-position: left;
+}

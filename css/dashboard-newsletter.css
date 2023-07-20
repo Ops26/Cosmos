@@ -1,0 +1,28 @@
+.headline {
+    display: inline-block;
+    color: #11101d;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 18px
+}
+
+.dividingLine {
+    margin-top: 40px;
+    border-color: gray;
+}
+
+.newsletterImg {
+    width: 250px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.newsletter-date {
+    margin-left: 15px;
+}
+
+.newsletter-textarea {
+    margin-left: 15px;
+    width: 70%;
+    height: 250px;
+}

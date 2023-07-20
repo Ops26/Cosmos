@@ -1,0 +1,62 @@
+
+@media(max-width: 700px){
+   
+   
+   .nav-lns ul  {
+    display: block;
+    padding-left: 10px;
+    text-align: left;
+   
+
+   }
+   
+   .nav-lns {
+      position: absolute;
+      background: rgba(241, 233, 233, 0.8);
+   border-top: 1px solid rgba(241, 233, 233, 0.8);
+   border-bottom: 1px solid rgba(241, 233, 233, 0.8);
+      height: 100vh;
+      width: 200px;
+      top:0;
+      left: -200;
+      text-align: right;
+      z-index: 2;
+transition: 1s;
+   }
+   .nav-progetto1 ul li a{
+       font-size: 10px;
+   }
+   .nav-progetto2 ul li a{
+      font-size: 10px;
+  }
+  .nav-progetto3 ul li a{
+   font-size: 10px;
+}
+.nav-progetto4 ul li a{
+   font-size: 10px;
+}
+.nav-progetto5 ul li a{
+   font-size: 10px;
+}
+nav .fa{
+   display: block;
+   color: black;
+   margin: 10px;
+   font-size: 22px;
+   cursor: pointer;
+}
+
+.fa{
+   text-align: left;
+}
+.logo{
+   text-align: center;
+}
+.row{
+   flex-direction: column;
+}
+
+}
+
+
+

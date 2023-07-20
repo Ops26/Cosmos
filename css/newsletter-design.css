@@ -1,0 +1,156 @@
+@import url(//db.onlinewebfonts.com/c/fe42624effa9e48d2ab8e7d4d6a53207?family=Hurme+Geometric+Sans+No.3);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header {
+    box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+    background-position: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+.menu nav ul {
+  text-align: center;
+  margin-right: 2.5%;
+}
+
+
+naV ul li a {
+    color: rgb(54, 40, 40);
+    text-decoration: none;
+    font-size: 20px !important;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #141313;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.socinsta ul {
+    display: flex;
+    position: right;
+    margin-left: 190px;
+}
+
+.socinsta ul li {
+    list-style: none;
+    padding: 0px 10px;
+    position: relative;
+
+
+}
+
+nav .fa {
+    display: none;
+}
+
+section.sec1 {
+    background: url(../img-newsletter/img-newsletter.jpg);
+    background-size: cover;
+    margin: 50px auto;
+}
+section.imageextra{
+  background: url(../img-newsletter/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15%;
+
+  height: 40vh;
+  width: 30%;
+  float: left;
+}
+section.imageextra2{
+  background: url(../img-newsletter/img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15%;
+
+  height: 40vh;
+  width: 30%;
+  float: right;
+}
+.otherimage{
+  clear: both;
+  height: 60vh;
+  margin-top: 3%;
+}
+
+section {
+    width: 70%;
+    height: 100vh;
+
+
+}
+
+.testo-col {
+    width: 40%;
+    text-align: left;
+
+    margin-top: -65px;
+    margin-left: 450px;
+}
+
+.testo-col1 {
+    margin-left: 200px;
+}
+
+@media (max-width: 1000px) {
+    .testo-col {
+        transform: translate(-400px);
+        width: 70%;
+        margin-top: 5%;
+
+    }
+
+    .testo-col h2 {
+        font-size: 10px;
+    }
+
+    .testo-col1 {
+        transform: translate(-150px);
+    }
+
+    section {
+        width: 70%;
+        height: 50vh;
+
+
+    }
+
+    .socinsta {
+        margin-left: -220px;
+    }
+
+}
+
+.band {
+    padding-left: 45%;
+}
+
+.socinsta {
+}

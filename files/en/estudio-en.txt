@@ -1,0 +1,19 @@
+<div>
+<h2>Our Office</h2>
+
+
+<h4>We are an international studio based in Spain, with projects all over the world.</h4>
+</div>
+
+<p><span style="font-size: 10pt;">Our team is made up of several architects, urban planners, interior designers, engineers and consultants who came together to design resilient solutions for the world where we really want to live in. </span></p>
+
+<p><span style="font-size: 10pt;">At Cosmos Architecture we believe in the intersection of ideas, common effort, shared knowledge, enthusiasm and socially committed architecture. This approach is nourished by constant attention to the quality of spaces, new uses, sustainability and a vision of the future.</span></p>
+
+<p><span style="font-size: 10pt;">Our goal is to achieve a timeless architecture based on a design committed to the environment, creating spaces with identity, ordered under the same criteria and where they stand out for their warmth and elegance. We use simple and natural materials, creating environments that transmit calm and tranquillity.</span></p>
+
+<p><span style="font-size: 10pt;">We maintain very fluid and close communication with professionals and suppliers in the sector, which allows us to offer our clients a wide range of novelties.</span></p>
+
+<p><span style="font-size: 10pt;">We offer our clients the complete management of the work, from the initial project to its execution, assuming the coordination of all the necessary aspects for the development of the work and relieving the client of all worries, beyond the transmission of his will in regarding the intervention.
+</span></p>
+
+<p><br><br>Cosmos Architecture helps you materialize your future.</p>

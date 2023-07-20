@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+
+  z-index: 10;
+  box-sizing: border-box;
+   flex: 1;
+   text-align: center;
+   background: white;
+  border-top: 1px solid rgba(187, 176, 176, 0.8);
+  border-bottom: 1px solid rgba(177, 168, 168, 0.8);
+  font-family: Helvetica;
+   background-position: center;
+
+}
+.menu nav ul {
+ text-align: center;
+ width: 100%;
+
+ padding: 0;
+}
+
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+   position: relative;
+}
+
+naV ul li a{
+   color: rgb(54, 40, 40);
+   text-decoration: none;
+   font-size: 20px;
+   
+}
+
+nav ul li::after{
+   content: '';
+   width: 0;
+   height: 2px;
+   background: #141313;
+   display: block;
+   margin: auto;
+   transition: 0.3s;
+}
+nav ul li:hover::after{
+   width: 100%;
+}
+
+
+
+
+.head{
+ height: 15vh;
+  margin-top: 2vh;
+ clear: both;
+}
+
+.social{
+ width: 50%;
+ float: left;
+
+ height:15vh;
+
+}
+
+.social ul{
+ list-style-type: none;
+
+ width: 40%;
+}
+.social ul li{
+
+ display: inline;
+ padding: 10px;
+
+
+}
+
+.lingue{
+ width: 49%;
+ float: right;
+
+ height: 15vh;
+}
+
+.lingue ul{
+ list-style-type: none;
+
+ width: 50%;
+ float: right;
+}
+
+.lingue ul li{
+ display: inline;
+ padding: 10px;
+
+
+}
+
+.lingue ul li a{
+ text-decoration: none;
+ color: black;
+
+}
+
+.lingue ul li a:hover{
+ border-bottom: 2px solid black;
+}
+
+.no-active{
+  opacity: .7;
+}
+
+.logo{
+
+ padding: 0;
+ margin-left: auto;
+ margin-right: auto;
+ height: 10vh;
+ width: auto;
+
+}
+
+@media (max-width: 767px){
+
+
+
+ .social ul{
+
+   width: 40%;
+   padding-left: 0;
+ }
+ .social ul li{
+   padding: 3px;
+ }
+
+
+ .lingue ul{
+   margin-right: 3%;
+   width: 95%;
+ }
+
+ 
+ 
+}
+
+
+
+
+
+

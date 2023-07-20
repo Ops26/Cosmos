@@ -1,0 +1,77 @@
+CREAZIONE NUOVO PROGETTO (per la scelta del nome del file non scegliere nomi troppo lunghi stessa cosa per le immagini):
+
+
+
+
+
+1. Accedere al sito https://www.ionos.com
+
+2. Una volta effettuato l'accesso andare nella sezione "Hosting"
+
+3. Selezionare "WP Gestionado Expert"
+
+4. Cliccare su Spazio web
+
+5. Dal menu di sinistra entrare nella cartella chiamata "COSMOSARCHITECTURE" e poi nella cartella "cosmostest", poi nella cartella "php" e infine nella cartella "project"
+
+6. In alto cliccare su carica e caricare dal computer il file chiamato "template.php"
+
+7. Una volta caricato cliccare alla sua sinistra sull'ingranaggio e poi cambia nome
+
+8. Una volta rinominato il file entrare nella cartella "images"
+
+9. Cliccare su carica e caricare tutte le 7 immagini che si vogliono utilizzare per quel progetto (ricordare i nomi delle immagini)
+
+10. Uscire dalla cartella "images" e cliccare sull'ingranaggio alla sinistra del file rinominato precedentemente e selezionare "Modifica file"
+
+
+
+
+11. MODIFICA TITOLO: scendere alla riga n. 88 " <h1>Inserire testo</h1>" e sostituire "Inserire testo" con il titolo desiderato
+
+12. MODIFICA DATI: scendere alla riga 92 e 93 e al posto di "Inserire testo" mettere i dati desiderati
+
+13. MODIFICA TESTO: Il teso va dalla riga 98 alla 103 sostituire il testo, per dare spazio tra una riga e l'altra aggiungere all'interno del testo nei punti in cui si vuole andare a capo "<br>" anche più di 1 se si vuole staccare di più il testo
+
+14. MODIFICA PERSONE: dalla riga 110 alla riga 134 si trovano i ruoli delle persone e i loro nomi da sostituire
+
+15. MODIFICA IMG: Alla riga 141, 144, 147, 150 ci sono le prime 4 immagini del progetto; dove si trova la scritta    ( href="" ) inserire tra le virgolette la scritta ( images/"nome immagine"."estensione immagine" ) e nella scritta che si trova sulla stessa riga ( <img src="" ) inserire anche li tra le virgolette la stessa cosa scritta prima ( images/"nome immagine"."estensione immagine" ) dopo aver fatto questo la prima immagine sarà sostituita fare la stessa cosa alle righe 144, 147, 150, 163, 166 e 169 cambiano ogni volta il nome dell'immagine
+
+16. Una volta effettuate tutte le modifiche salvare il file
+
+17. Andare nella cartella che si trova dentro "cosmostest" chiamata "php" e li trovare il file "project.php" il file con tutti i progetti, cliccare l'ingranaggio e selezionare modifica file
+
+18. Dalla riga 103 alla 171 si troverà le immagini di tutti i progetti un progetto si trova tra <div class="container"> e il secondo </div>:
+
+Primo Progetto:
+<div class="container">
+
+                      <a href="project/project_1.php"><div class="filterDiv architecture"><img src="../images/img-project/1.jpg" class="img1"></a>
+                          <p class="titolo_conta">casa guandong</p>
+                  <p class="sotto_conta">private luxury building</p>
+                  </div>
+      </div>
+Fine primo progetto
+
+Secondo progetto:
+        <div class="container">
+
+                  <a href="project/project.php"><div class="filterDiv interior"><img src="../images/img-project/2.jpg" class="img1"></a>
+                      <p class="titolo_conta">casa guandong</p>
+              <p class="sotto_conta">private luxury building</p>
+              </div>
+</div>
+Fine secondo progetto
+
+
+Trovare un progetto non utilizzato o se sono tutti già stati utilizzati copia le righe comprese queste due righe che vanno da <div class="container"> al secondo </div> che si troverà sopra al prossimo progetto quindi sopra il prossimo <div class="container">  una volta copiato incollarlo tra un </div> e un <div class="container">
+
+Dopo aver trovato un progetto o averne creato uno nuovo andare alla riga dove si trova ( <a href="project/project.php"><div class="filterDiv interior"><img src="../images/img-project/2.jpg" ) e modificare il contenuto all'interno delle virgolette di ( href="" ) e scrivere ( project/"nome del progetto scelto prima".php) poi andare sulla stessa riga dove c'è scritto    ( <img src="../images/img-project/2.jpg" ) e modificare il contenuto all'interno delle virgolette scrivendo ( project/images/"nome di un immagine del progetto usata anche precedentemente nell'altro file"."estensione dell'immagine");
+sempre sulla stessa riga dove c'è ( <div class="filterDiv interior"> ) modificare "interior" con qualcuno degli altri filtri in base a che tipo di progetto è quindi scegliere tra architecture, interior o urbanism
+
+Andare sulle righe dove c'è scritto "casa guangdong" e "private luxury building" e modifica in base al nome del PROGETTO
+
+
+
+s
+Salvare il file andare sul sito e ricaricare per vedere se le modifiche effettuate sono andate a buon fine potrebbe volerci un po di tempo prima di vedere le modifiche quindi ricaricare più volte la pagina e aspettare fino a che non si vedranno le modifiche

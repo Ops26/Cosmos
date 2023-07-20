@@ -1,0 +1,555 @@
+@import url(//db.onlinewebfonts.com/c/fe42624effa9e48d2ab8e7d4d6a53207?family=Hurme+Geometric+Sans+No.3);
+*{
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+
+}
+header{
+
+   z-index: 10;
+   box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+    background: white;
+   border-top: 1px solid rgba(187, 176, 176, 0.8);
+   border-bottom: 1px solid rgba(177, 168, 168, 0.8);
+
+    background-position: center;
+
+}
+.menu nav ul {
+  text-align: center;
+  width: 100%;
+
+  padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+naV ul li a{
+    color: rgb(54, 40, 40);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #141313;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+.head{
+  height: 15vh;
+
+  clear: both;
+}
+
+.social{
+  width: 50%;
+  float: left;
+
+  height:15vh;
+
+}
+
+.social ul{
+  list-style-type: none;
+
+  width: 40%;
+}
+.social ul li{
+
+  display: inline;
+  padding: 10px;
+
+
+}
+
+.lingue{
+  width: 49%;
+  float: right;
+
+  height: 15vh;
+}
+
+.lingue ul{
+  list-style-type: none;
+
+  width: 50%;
+  float: right;
+}
+
+.lingue ul li{
+  display: inline;
+  padding: 10px;
+
+
+}
+
+.lingue ul li a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.lingue ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
+
+
+.logo{
+
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10vh;
+  width: auto;
+
+}
+
+@media (max-width: 700px){
+
+
+
+  .social ul{
+
+    width: 40%;
+    padding-left: 0;
+  }
+  .social ul li{
+    padding: 3px;
+  }
+
+
+  .lingue ul{
+    margin-right: 3%;
+    width: 95%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+nav .fa{
+    display: none;
+}
+.txt{
+    margin-left: 100px;
+   margin-right: 100px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+@media(max-width:1350px){
+    .txt{
+        font-size: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .campus-col{
+margin-bottom: 10px;
+
+width:77%;
+    }
+
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    display: flex; width: 100%;align-items: center;
+    /* background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)); */
+    background-size: cover;
+    overflow: hidden;
+}
+
+.video{
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  filter:brightness(110%);
+
+}
+.no-active{
+  opacity: .7;
+}
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+@media (min-aspect-ratio: 16/9) {
+  .video iframe {
+    /* height = 100 * (9 / 16) = 56.25 */
+    height: 56.25vw;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video iframe {
+    /* width = 100 / (9 / 16) = 177.777777 */
+    width: 177.78vh;
+  }
+}
+
+.hero:after{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+.hero__content{
+    width: 30%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 30px;
+    z-index: 1;
+    position: relative;
+
+}
+.hero__content h1,.hero__content p{
+color: black;
+}
+.hero--small{
+    height: 450px; text-align: center;
+}
+#video-back{
+position: absolute;
+bottom: 0;
+left: 0;
+
+min-width: 100%;
+min-height: 100%;
+z-index: 0;
+
+}
+.campus-col{
+    flex-basis: 23%;
+    height: 60vh;
+    border-bottom: 40px;
+    position:relative;
+    overflow: hidden;
+
+    margin: 20px 0;
+}
+
+
+
+.campus-col img{
+width: 100%;
+height: 60vh;
+color: antiquewhite;
+}
+
+
+.layer{
+    background: transparent;
+    height: 60vh;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+    text-align: center;
+
+
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+
+ }
+
+ @media(max-width: 700px){
+   .campus-col{
+     height: 15vh;
+   }
+   .campus-col img{
+     height: 15vh;
+   }
+   .layer{
+     height: 15vh;
+   }
+ }
+
+ .layer:hover{
+    background:rgba(216, 207, 197, 0.5) ;
+    height: 75%;
+    border-radius: 10px 10px 0px 0px;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    bottom: 0;
+    left: 70%;
+    transform: translateX(-70%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 27%;
+    opacity: 1;
+}
+
+.layer p{
+    width: 100%;
+    font-weight: 200;
+    color: black;
+    font-size: 14px;
+    bottom: 0;
+    left: 70%;
+    transform: translateX(-70%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover p{
+    bottom: 19%;
+    opacity: 1;
+}
+
+.layer a i{
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    bottom: 0;
+    left: 70%;
+    transform: translateX(-70%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.layer:hover .fa-envelope{
+  bottom: 12%;
+  opacity: 1;
+
+}
+
+.layer:hover .fa-linkedin{
+  bottom:2%;
+  opacity: 1;
+}
+
+.fotosoc{
+    flex-basis: 23%;
+    height: 370px;
+
+    border-bottom: 40px;
+    position:relative;
+    overflow: hidden;
+
+}
+.fotosoc img{
+    width: 100%;
+    height: 50vh;
+}
+
+
+.container {
+
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.container img {
+    width: 33%;
+    height: 50vh;
+    float: left;
+}
+
+
+footer{
+  bottom: 0;
+
+}
+
+.instagram{
+  margin-top: 8%;
+
+}
+
+.space{
+  height: 1vh;
+}
+
+
+/*  NEW */
+
+.main{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	padding: 50px;
+}
+.main .heading{
+	font-size: 25px;
+	margin-bottom: 80px;
+	position: relative;
+}
+.heading span{
+	color: rgb(0, 81, 255);
+}
+.heading::after{
+	content: " ";
+	position: absolute;
+	width: 60%;
+	height: 3px;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -5px;
+	background-color: rgb(0, 81, 255);
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container .card{
+
+	height: 350px;
+  width: 250px;
+	position: relative;
+	border-radius: 10px;
+	background-color: #fff;
+	overflow: hidden;
+	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+	margin:15px;
+}
+.card::after{
+	content: " ";
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8) ;
+}
+.card img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: fit;
+	transition: .6s;
+	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+	z-index: 99;
+}
+.card:hover img{
+	transform: scale(.50) translateY(-120px);
+	border-radius: 10px;
+}
+.card .details{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 2vh;
+	transform: translateY(100%);
+	transition: .6s;
+
+}
+.card:hover .details{
+	transform: translateY(0);
+}
+.details h3{
+	font-size: 16px;
+	color: black;
+}
+.details p{
+	font-size: 15px;
+	color: black;
+	margin-bottom: 7px;
+}
+.details .social-links{
+	display: flex;
+}
+.details .social-links a{
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+	border-radius: 50%;
+	color: #333;
+	background-color: rgb(182, 182, 182);
+	text-decoration: none;
+	transition: .6s;
+	display: grid;
+	place-items: center;
+	font-size: 17px;
+}
+.details .social-links a:hover{
+	transform: rotate(360deg);
+	background-color: rgba(0,0,0, .7);
+	color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  .card {
+    margin-bottom: 20px; /* Add some spacing between cards for better readability */
+  }
+}

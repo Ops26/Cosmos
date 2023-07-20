@@ -1,0 +1,7 @@
+{
+  "name": "nuova",
+  "version": "1.0.0",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}

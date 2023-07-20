@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Hurme Geometric Sans No.2';
+    src: local('Hurme Geometric Sans No.2 Thin'), local('Hurme-Geometric-Sans-No.2-Thin'),
+        url('HurmeGeometricSans2-Thin.woff2') format('woff2'),
+        url('HurmeGeometricSans2-Thin.woff') format('woff'),
+        url('HurmeGeometricSans2-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }

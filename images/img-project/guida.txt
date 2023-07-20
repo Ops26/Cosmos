@@ -1,0 +1,3 @@
+cartelle da 1 a 9 --> Architettura
+cartelle da 10 a 19 --> Interni
+cartelle da 20 a 25 --> urbanismo

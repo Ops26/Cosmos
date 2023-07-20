@@ -1,0 +1,10 @@
+<div>
+<h2>Studio</h2>
+<h4>Siamo uno studio di architettura e design con sede a Valencia e Madrid in Spagna e a Medell&iacute;n in Colombia.</h4>
+</div>
+<p><span style="font-size: 10pt;">Il nostro team &egrave; composto da diversi architetti e interior designer di varie nazionalit&agrave; che hanno iniziato a lavorare insieme su diversi progetti. Con il passare del tempo e l'acquisizione di esperienza, ci siamo resi conto che l'unione fa la forza ed &egrave; per questo che abbiamo deciso di unire le forze.</span></p>
+<p><span style="font-size: 10pt;">In Cosmos Architecture crediamo nell'incrocio di idee, nello sforzo comune, nella conoscenza condivisa, nell'entusiasmo e nell'architettura socialmente impegnata. Questo approccio &egrave; alimentato da una costante attenzione alla qualit&agrave; degli spazi e alle nuove destinazioni d'uso.</span></p>
+<p><span style="font-size: 10pt;">Il nostro obiettivo &egrave; quello di realizzare un'architettura senza tempo, basata su un design impegnato nell'ambiente, creando spazi con identit&agrave;, ordinati sotto la stessa unit&agrave; di criteri e dove si distinguono per il loro calore ed eleganza. Utilizziamo materiali semplici</span></p>
+<p><span style="font-size: 10pt;">Manteniamo una comunicazione molto fluida e stretta con i professionisti e i fornitori del settore, che ci permette di offrire ai nostri clienti un'ampia gamma di novit&agrave; nel mondo dell'arredamento, dell'edilizia e del design.</span></p>
+<p><span style="font-size: 10pt;">Offriamo ai nostri clienti la gestione completa dell'opera, dal progetto iniziale alla sua esecuzione, assumendo il coordinamento di tutti gli aspetti necessari allo sviluppo dell'opera e sollevando il cliente da qualsiasi preoccupazione, al di l&agrave; della trasmissione della sua volont&agrave; in merito all'intervento.</span></p>
+<p><br><br>Cosmos Architecture vi aiuta a realizzare i vostri sogni</p>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Cosmos Architecture</title>
+    <link rel="stylesheet" href="landing/css/landing-style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="?family=https://fonts.googleapis.com/cssPoppins:wght@100;200;300;400;600;700&display=swap"
+          rel="stylesheet">
+          <script src="https://kit.fontawesome.com/1030d32312.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta name="description" content="Architects, Planning, Designers, Engineers and Consultants have come together to design resilient solutions for the world we truly want to live in.">
+
+  </head>
+  <body>
+
+<div class="banner">
+  <video autoplay muted loop >
+    <source src="landing/video/1.mp4" type="video/mp4">
+  </video>
+  <div class="logo1">
+    <img src="landing/img/logo.png" alt="Cosmos Group">
+  </div>
+  <br>
+  <div class="slideshow-container">
+
+
+    <div class="text-center">
+      <div class="mySlides fade">
+        <p>Diseñamos soluciones resilientes para el mundo en el que realmente queremos vivir. Permítanos ayudarlo a elegir su camino.</p>
+        </div>
+        <div class="mySlides fade">
+        <p>We design resilient solutions for the world we truly want to live in. Let us help you choose your path.</p>
+        </div>
+        <div class="mySlides fade">
+        <p>Progettiamo soluzioni resilienti per il mondo in cui vogliamo veramente vivere. Lascia che ti aiutiamo a scegliere la tua strada.</p>
+        </div>
+        <div class="mySlides fade">
+        <p>我們為我們真正想要生活的世界設計彈性解決方案。讓我們幫助您選擇自己的道路。</p>
+        </div>
+        <div class="mySlides fade">
+        <p lang="ar" dir="rtl">نصمم حلولاً متينة للعالم الذي نريد العيش فيه. دعنا نساعدك في اختيار طريقك.</p>
+        </div>
+    </div>
+
+   
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+  </div>
+<div class="dot-container" style="display: none;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+
+  <div class="logo2">
+    <div class="leftlogo">
+      <a href="home.php"><img src="landing/img/cosmosa.png" alt=""></a>
+    </div>
+    <div class="rightlogo">
+        <a href="https://www.cosmosivicsa.com"><img src="landing/img/cosmosi.png" alt=""></a>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+  <div class="footer-basic">
+      <footer>
+
+          <div style="text-align: center; margin-bottom: 29px">
+              <a href="home.php"><img style="height: 10vh; width: auto;"src="dashboard/icons/logo.png" alt="company logo"></a>
+          </div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="php/en/terms-of-use-en.php" target="_blank">Terms of use</a></li>
+              <li class="list-inline-item"><a href="php/en/privacy-cookie-policy-en.php" target="_blank">Privacy & Cookies Policy</a></li>
+              <li class="list-inline-item"><a href="php/en/credits-en.php" target="_blank">Credits</a></li>
+              <li class="list-inline-item"><a href="php/en/all-rights-reserved-en.php" target="_blank">All Rights Reserved</a></li>
+          </ul>
+      </footer>
+  </div>
+
+</div>
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login{
+    width: 100%;
+}
+
+form{
+    
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    
+    height: 70vh;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+.centered-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Puoi regolare la larghezza del modulo a tuo piacimento */
+}
+.login h2{
+    text-align: center;
+    font-size: 40px;
+    
+}
+form h1{
+    padding-top: 7vh;
+}
+
+input{
+    margin-top: 6vh;
+    height: 30px;
+}
+
+input[type="text"]{
+
+    margin-left: 20px;
+}
+
+input[type="password"]{
+
+    margin-left: 20px;
+}

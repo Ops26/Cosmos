@@ -1,0 +1,255 @@
+@import url("font/stylesheet.css");
+
+*{
+  font-family: "Helvetica";
+  font-weight: 100;
+  font-style: normal;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  opacity: .6;
+}
+
+
+.banner .content{
+  z-index: 1;
+}
+
+
+.footer-basic ul li{
+display: inline;
+}
+
+
+.logo1{
+
+  height: 10vh;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.logo1 img{
+  height: 10vh;
+  width: auto;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.slideshow-container{
+
+  height: 40vh;
+  width: 100%;
+
+}
+
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+
+  margin-top: 5vh;
+}
+
+
+
+.mySlides p{
+  font-size: 18px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 41%;
+  width: auto;
+
+  padding: 12px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+
+  vertical-align: middle;
+
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.prev{
+  margin-left: 23%;
+  margin-top: -20px;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  margin-right: 23%;
+  border-radius: 3px 0 0 3px;
+  margin-top: -20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+.logo2{
+  margin-top: 3%;
+  height: 20vh;
+  width: 100%;
+
+  clear: both;
+}
+
+.leftlogo{
+  width: 45%;
+  float: left;
+
+  height: 20vh;
+}
+
+.leftlogo img{
+  height: 20vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, .5);
+
+  border-radius: 5px;
+}
+
+.rightlogo{
+  width: 45%;
+  height: 20vh;
+  float: right;
+
+}
+
+.rightlogo img{
+  height: 20vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, .5);
+
+  border-radius: 5px;
+}
+
+.leftlogo img:hover{
+  transform: scale(1.1);
+
+}
+
+.rightlogo img:hover{
+  transform: scale(1.1);
+
+}
+
+
+
+@media (max-width: 700px){
+  .logo2{
+    margin-top: 25%;
+  }
+  .leftlogo img{
+    height: 8vh;
+    width: auto;
+    margin-left: 18%;
+  }
+
+  .rightlogo img{
+    height: 8vh;
+    width: auto;
+    margin-right: 18%;
+  }
+
+  .mySlides{
+
+    top:0;
+    margin-top: 0;
+  }
+  .mySlides p{
+    margin-top: 0;
+
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+  .prev, .next{
+    top: 25%;
+    
+
+  }
+  .prev{
+    margin-left: 10%;
+  }
+  .next{
+    margin-right: 10%;
+  }
+
+}
+
+@media (max-width: 767px){
+  .prev{
+    display: none;
+    
+  }
+  .next{
+    display: none;
+  }
+}
